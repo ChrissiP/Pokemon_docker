@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url('https://images.hdqwalls.com/download/pokemon-1920x1080.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1.id-name {
+    font-size:large;
+    text-align: left;
+    color: #f6eeee;
+    margin-top: 0;
+    margin-bottom: 10px; 
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  
+  .right-container {
+    flex: 2;
+    padding-left: 100px;
+    background-color: rgb(251, 252, 252);
+    opacity: 85%;
+  }
+  
+  img {
+    width: 400px;
+    height: auto;
+  }
